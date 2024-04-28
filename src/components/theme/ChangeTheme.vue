@@ -42,11 +42,14 @@ function closePaletteTheme() {
 <style scoped> 
 .themes-container {
   position: fixed;
-  display: flex;
-  grid-template-columns: repeat(4, 1fr) 100px;
+  display: grid;
+  overflow-x: scroll;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(4, 1fr) 50px;
   gap: 20px;
   justify-content: center;
   height: 150px;
+  padding: 0px 20px;
   overflow: hidden;
   width: 100%;
   z-index: 200;
@@ -58,6 +61,7 @@ function closePaletteTheme() {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  width: 100%;
 }
 
 .title-container {
@@ -69,7 +73,7 @@ function closePaletteTheme() {
   border-radius: 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  width: 400px;
+  width: 100%;
   height: 70%;
 
   span {
