@@ -37,7 +37,7 @@ function openPaletteThemes () {
 
 <template>
   <header :style="{'background-color': selectedTheme.bgColor}">
-    <img class="logo animate__animated animate__bounceIn animate__delay-1s" src="../../assets/logo.jpg" alt="Logo image" @click="openPaletteThemes" />
+    <img class="logo animate__animated animate__bounceIn animate__delay-1s" src="/public/assets/logo.jpg" alt="Logo image" @click="openPaletteThemes" />
 
     <Hamburguer class="hamburguer-icon animate__animated animate__bounceIn animate__delay-1s" @click="showLateralFunc" :color="selectedTheme.fontColor" />
 

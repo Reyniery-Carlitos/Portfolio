@@ -4,7 +4,7 @@
   "title": "Hola, soy Carlos Rubio y soy un desarrollador fullstack",
   "description": "Desarrollador Jr. Full Stack de Tegucigalpa, Honduras 🇭🇳. Apasionado por la programación y la creación de aplicaciones web.",
   "navItems": ["Intro", "Habilidades", "Proyectos", "Contactame"],
-  "cv": "/public/CV-Carlos Rubio.pdf",
+  "cv": "/CV-Carlos Rubio.pdf",
   "social": {
     "telegram": "https://t.me/KrlitoxR",
     "github": "https://github.com/reyniery-carlitos",
@@ -92,13 +92,13 @@
     "description": "Algunos proyectos personales creados para demostrar mis capacidades como desarrollador.",
     "info": [
       {
-        "img": "src/assets/imgs/rest-countries-1.png",
+        "img": "/assets/imgs/rest-countries-1.png",
         "imgs": [
-          "src/assets/imgs/rest-countries/1.png",
-          "src/assets/imgs/rest-countries/2.png",
-          "src/assets/imgs/rest-countries/3.png",
-          "src/assets/imgs/rest-countries/4.png",
-          "src/assets/imgs/rest-countries/5.png"
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
         ],
         "title": "Rest countries",
         "description": "Una aplicación que proporciona información detallada sobre países de todo el mundo.",
@@ -115,13 +115,13 @@
         ]
       },
       {
-        "img": "src/assets/imgs/task-management-2.png",
+        "img": "/assets/imgs/task-management-2.png",
         "imgs": [
-          "src/assets/imgs/rest-countries/1.png",
-          "src/assets/imgs/rest-countries/2.png",
-          "src/assets/imgs/rest-countries/3.png",
-          "src/assets/imgs/rest-countries/4.png",
-          "src/assets/imgs/rest-countries/5.png"
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
         ],
         "title": "Gestor de tareas",
         "description": "Una aplicación dedicada a la gestión y asignación de tareas.",
@@ -138,13 +138,13 @@
         ]
       },
       {
-        "img": "src/assets/imgs/wheater-app-1.png",
+        "img": "/assets/imgs/wheater-app-1.png",
         "imgs": [
-          "src/assets/imgs/rest-countries/1.png",
-          "src/assets/imgs/rest-countries/2.png",
-          "src/assets/imgs/rest-countries/3.png",
-          "src/assets/imgs/rest-countries/4.png",
-          "src/assets/imgs/rest-countries/5.png"
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
         ],
         "title": "Aplicación del tiempo",
         "description": "Una aplicación meteorológica intuitiva que proporciona pronósticos detallados sobre el tiempo en una región específica.",
@@ -161,13 +161,13 @@
         ]
       },
       {
-        "img": "src/assets/imgs/currency-converter-1.png",
+        "img": "/assets/imgs/currency-converter-1.png",
         "imgs": [
-          "src/assets/imgs/rest-countries/1.png",
-          "src/assets/imgs/rest-countries/2.png",
-          "src/assets/imgs/rest-countries/3.png",
-          "src/assets/imgs/rest-countries/4.png",
-          "src/assets/imgs/rest-countries/5.png"
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
         ],
         "title": "Conversor de divisas",
         "description": "Conversor de divisas usando teoria de compiladores.",
@@ -184,13 +184,13 @@
         ]
       },
       {
-        "img": "src/assets/imgs/password-generator-1.png",
+        "img": "/assets/imgs/password-generator-1.png",
         "imgs": [
-          "src/assets/imgs/rest-countries/1.png",
-          "src/assets/imgs/rest-countries/2.png",
-          "src/assets/imgs/rest-countries/3.png",
-          "src/assets/imgs/rest-countries/4.png",
-          "src/assets/imgs/rest-countries/5.png"
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
         ],
         "title": "Generador de contraseñas",
         "description": "Una aplicación que genera contraseñas de forma aleatoria en función de la longitud y caracteres a ser considerarados.",
@@ -207,13 +207,13 @@
         ]
       },
       {
-        "img": "src/assets/imgs/minesweeper-1.png",
+        "img": "/assets/imgs/minesweeper-1.png",
         "imgs": [
-          "src/assets/imgs/rest-countries/1.png",
-          "src/assets/imgs/rest-countries/2.png",
-          "src/assets/imgs/rest-countries/3.png",
-          "src/assets/imgs/rest-countries/4.png",
-          "src/assets/imgs/rest-countries/5.png"
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
         ],
         "title": "Buscaminas",
         "description": "Juego buscaminas",
@@ -230,13 +230,13 @@
         ]
       },
       {
-        "img": "src/assets/imgs/tic-tac-toe-1.png",
+        "img": "/assets/imgs/tic-tac-toe-1.png",
         "imgs": [
-          "src/assets/imgs/rest-countries/1.png",
-          "src/assets/imgs/rest-countries/2.png",
-          "src/assets/imgs/rest-countries/3.png",
-          "src/assets/imgs/rest-countries/4.png",
-          "src/assets/imgs/rest-countries/5.png"
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
         ],
         "title": "Tic Tac Toe",
         "description": "Juego Tic Tac Toe",
