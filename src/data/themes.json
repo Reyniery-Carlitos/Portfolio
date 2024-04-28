@@ -1,0 +1,58 @@
+{
+  "light": {
+    "fontColor": "#000",
+    "bgColor": "#fff",
+    "btnPrimary": "#3a3a3a",
+    "btnPrimaryBorder": "#3a3a3a",
+    "btnPrimaryFontColor": "#fff",
+    "btnSecondary": "#fff",
+    "btnSecondaryBorder": "#000",
+    "btnSecondaryFontColor": "#000",
+    "cardBgColor": "#faedee",
+    "tagColor": "#000",
+    "tagBgColor": "#efefef",
+    "footerBgColor": "#f5f5f5"
+  },
+  "dark": {
+    "fontColor": "#fff",
+    "bgColor": "#1E1E1E",
+    "btnPrimary": "#fff",
+    "btnPrimaryBorder": "#fff",
+    "btnPrimaryFontColor": "#000",
+    "btnSecondary": "#000",
+    "btnSecondaryBorder": "#FAF0E6",
+    "btnSecondaryFontColor": "#FAF0E6",
+    "cardBgColor": "#242424",
+    "tagBgColor": "#222222",
+    "tagColor": "#fff",
+    "footerBgColor": "#242424"
+  }, 
+  "light pastel": {
+    "fontColor": "#59483e",
+    "bgColor": "#fff7e5",
+    "btnPrimary": "#fff",
+    "btnPrimaryBorder": "#fff",
+    "btnPrimaryFontColor": "#000",
+    "btnSecondary": "#59483e",
+    "btnSecondaryBorder": "#FAF0E6",
+    "btnSecondaryFontColor": "#FAF0E6",
+    "cardBgColor": "#faedee",
+    "tagBgColor": "#faedee",
+    "tagColor": "#59483e",
+    "footerBgColor": "#fff"
+  }, 
+  "dark pastel": {
+    "fontColor": "#fff",
+    "bgColor": "#3f2e2b",
+    "btnPrimary": "#fff",
+    "btnPrimaryBorder": "#fff",
+    "btnPrimaryFontColor": "#000",
+    "btnSecondary": "#201716",
+    "btnSecondaryBorder": "#FAF0E6",
+    "btnSecondaryFontColor": "#fff",
+    "cardBgColor": "#2f2221",
+    "tagBgColor": "#faedee",
+    "tagColor": "#59483e",
+    "footerBgColor": "#502421"
+  }
+}
