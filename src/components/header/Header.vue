@@ -79,8 +79,8 @@ header {
 
 .logo,
 .hamburguer-icon {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 
 .logo {
@@ -130,7 +130,7 @@ header {
 
 .ul-container li {
   list-style: none;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .ul-container li a {
@@ -143,7 +143,7 @@ header {
 }
 
 .languajes-container {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .languajes-container > span {
@@ -162,8 +162,8 @@ header {
 }
 
 .expanded .github-icon {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
 }
 
 .cv {
@@ -171,7 +171,7 @@ header {
   align-items: center;
   border-radius: 10px;
   font-weight: bold;
-  height: 50px;
+  height: 40px;
   padding: 0px 10px;
   text-transform: uppercase;
 
@@ -199,14 +199,14 @@ header {
   }
 
   .ul-container li {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .languajes-container {
     display: flex; 
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .languajes-container > span {
@@ -222,8 +222,8 @@ header {
   }
 
   .github-icon {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
 
   .links-container {
