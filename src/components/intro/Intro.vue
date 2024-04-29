@@ -37,7 +37,7 @@ const {selectedTheme} = storeToRefs(storeTheme)
   place-items: center;
   place-content: center;
   height: 100vh;
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 0px 20px;
   width: 100%;
 }

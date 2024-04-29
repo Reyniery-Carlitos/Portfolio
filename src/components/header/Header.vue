@@ -70,7 +70,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  height: 100px;
+  height: 70px;
   width: 100%;
   padding: 0px 20px;
   position: fixed;
