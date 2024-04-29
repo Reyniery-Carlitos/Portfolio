@@ -62,12 +62,12 @@ const {data} = storeToRefs(store)
 }
 
 .footer .created-with {
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .footer .created-by {
-  font-size: 1.4rem;
+  font-size: 1rem;
 
   a {
     font-weight: bold;

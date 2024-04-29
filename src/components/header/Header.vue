@@ -6,6 +6,7 @@ import { storeToRefs } from "pinia";
 import Github from "../icons/Github.vue";
 import Hamburguer from "../icons/Hamburguer.vue";
 import Close from "../icons/Close.vue";
+import Theme from '../icons/Theme.vue';
 
 import { usePersonalInfo } from "../../stores/personal";
 import { useTheme } from "../../stores/theme";
@@ -37,7 +38,7 @@ function openPaletteThemes () {
 
 <template>
   <header :style="{'background-color': selectedTheme.bgColor}">
-    <img class="logo animate__animated animate__bounceIn animate__delay-1s" src="/public/assets/logo.jpg" alt="Logo image" @click="openPaletteThemes" />
+    <Theme class="logo animate__animated animate__bounceIn animate__delay-1s" @click="openPaletteThemes" :color="selectedTheme.fontColor" />
 
     <Hamburguer class="hamburguer-icon animate__animated animate__bounceIn animate__delay-1s" @click="showLateralFunc" :color="selectedTheme.fontColor" />
 

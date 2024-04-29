@@ -48,8 +48,8 @@ function closePaletteTheme() {
   grid-template-columns: repeat(4, 1fr) 50px;
   gap: 20px;
   justify-content: center;
-  height: 150px;
-  padding: 0px 20px;
+  height: 100px;
+  padding: 10px;
   overflow: hidden;
   width: 100%;
   z-index: 200;
@@ -59,13 +59,13 @@ function closePaletteTheme() {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 10px;
   width: 100%;
 }
 
 .title-container {
-  font-size: 1.2rem;
+  font-size:  0.5rem;
   font-weight: bold;
 }
 
@@ -73,6 +73,7 @@ function closePaletteTheme() {
   border-radius: 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+
   width: 100%;
   height: 70%;
 
@@ -85,5 +86,11 @@ function closePaletteTheme() {
   align-self: center;
   height: 50px;
   width: 50px;
+}
+
+@media only screen and (min-width: 520px) {
+  .title-container {
+    font-size: 0.7rem;
+  }
 }
 </style>
