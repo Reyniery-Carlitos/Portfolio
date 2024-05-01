@@ -37,7 +37,7 @@
     "btnSecondaryBorder": "#FAF0E6",
     "btnSecondaryFontColor": "#FAF0E6",
     "cardBgColor": "#faedee",
-    "tagBgColor": "#faedee",
+    "tagBgColor": "#fffcfd",
     "tagColor": "#59483e",
     "footerBgColor": "#fff"
   }, 
@@ -51,8 +51,8 @@
     "btnSecondaryBorder": "#FAF0E6",
     "btnSecondaryFontColor": "#fff",
     "cardBgColor": "#2f2221",
-    "tagBgColor": "#faedee",
-    "tagColor": "#59483e",
+    "tagBgColor": "#473b3a",
+    "tagColor": "#fff",
     "footerBgColor": "#502421"
   }
 }
