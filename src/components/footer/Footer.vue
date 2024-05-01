@@ -17,11 +17,11 @@ const {data} = storeToRefs(store)
 <template>
   <footer class="footer" :style="{'background-color': selectedTheme.footerBgColor}">
     <div class="links">
-      <a href="https://www.github.com/reyniery-carlitos" target="_blank">
+      <a :href="data.social.github" target="_blank">
         <Github :color="selectedTheme.fontColor" />
       </a>
 
-      <a href="https://www.linkedin.com/in/carlos-reyniery-r-2435b9136" target="_blank">
+      <a :href="data.social.linkedin" target="_blank">
         <Linkedin :color="selectedTheme.fontColor" />
       </a>
     </div>
@@ -33,7 +33,7 @@ const {data} = storeToRefs(store)
     <div class="created-by" :style="{'color': selectedTheme.fontColor}">
       <span>
         {{data.footer.createdBy}}
-        <a href="https://www.github.com/reyniery-carlitos" target="_blank":style="{'color': selectedTheme.fontColor}"> Carlos Rubio </a>
+        <a :href="data.social.github" target="_blank":style="{'color': selectedTheme.fontColor}"> Carlos Rubio </a>
       </span>
     </div>
   </footer>
