@@ -46,7 +46,7 @@ function openPaletteThemes () {
       <nav class="nav-container animate__animated animate__bounceIn animate__delay-1s">
         <Close @click="hideLateral" class="close" :color="selectedTheme.fontColor" />
         <ul class="ul-container">
-          <li v-for="navItem of data.navItems" :key="navItem"> <a :href="navItem === 'Contact me' || navItem === 'Contactame' ? 'https://t.me/KrlitoxR': '#' + navItem" :target="navItem === 'Contact me' || navItem === 'Contactame' ? '_blank' : ''" :style="{'color': selectedTheme.fontColor}" @click="hideLateral"> {{ navItem }} </a> </li>
+          <li v-for="navItem of data.navItems" :key="navItem"> <a :href="navItem === 'Contact me' || navItem === 'Contactame' ? '#footer': '#' + navItem" :style="{'color': selectedTheme.fontColor}" @click="hideLateral"> {{ navItem }} </a> </li>
         </ul>
       </nav>
 

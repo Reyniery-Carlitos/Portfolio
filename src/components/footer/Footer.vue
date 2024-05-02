@@ -2,6 +2,8 @@
 import Github from "../icons/Github.vue";
 import Linkedin from "../icons/Linkedin.vue";
 import Email from '../icons/Email.vue';
+import Telegram from '../icons/Telegram.vue'
+import Whatsapp from '../icons/Whatsapp.vue'
 
 import { storeToRefs } from "pinia";
 import { useTheme } from "../../stores/theme";
@@ -16,7 +18,7 @@ const {data} = storeToRefs(store)
 </script>
 
 <template>
-  <footer class="footer" :style="{'background-color': selectedTheme.footerBgColor}">
+  <footer id="footer" class="footer" :style="{'background-color': selectedTheme.footerBgColor}">
     <div class="links">
       <a :href="data.social.github" target="_blank">
         <Github :color="selectedTheme.fontColor" />
@@ -28,6 +30,14 @@ const {data} = storeToRefs(store)
 
       <a :href="'mailto:' + data.social.email" target="_blank">
         <Email :color="selectedTheme.fontColor" />
+      </a>
+      
+      <a :href="data.social.telegram" target="_blank">
+        <Telegram :color="selectedTheme.fontColor" />
+      </a>
+      
+      <a :href="data.social.whatsapp" target="_blank">
+        <Whatsapp :color="selectedTheme.fontColor" />
       </a>
     </div>
 

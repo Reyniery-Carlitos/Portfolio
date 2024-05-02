@@ -14,7 +14,7 @@ const {selectedTheme} = storeToRefs(storeTheme)
 
 <template>
   <section class="intro-container" :id="data.navItems[0]" :style="{'background-color': selectedTheme.bgColor}" >
-    <img class="logo animate__animated animate__backInLeft animate__delay-1s" src="/public/assets/logo.jpg" alt="Logo image" />
+    <img class="logo animate__animated animate__backInLeft animate__delay-1s" src="/assets/logo.jpg" alt="Logo image" />
 
     <div class="info-container">
       <h1 :style="{'color': selectedTheme.fontColor}" class="animate__animated animate__backInDown animate__delay-1s"> {{ data.title  }} </h1>
@@ -23,7 +23,7 @@ const {selectedTheme} = storeToRefs(storeTheme)
       </p>
 
       <div class="container-buttons animate__animated animate__backInRight animate__delay-1s">
-        <a :style="{'background-color': selectedTheme.btnPrimary, 'color': selectedTheme.btnPrimaryFontColor}" :href="data.social.telegram" target="_blank"> Contact me </a>
+        <a :style="{'background-color': selectedTheme.btnPrimary, 'color': selectedTheme.btnPrimaryFontColor, 'border': ('2px solid ' + selectedTheme.btnPrimary)}" href="#footer"> Contact me </a>
         <a :style="{'background-color': selectedTheme.btnSecondary, 'color': selectedTheme.btnSecondaryFontColor, 'border': ('2px solid ' + selectedTheme.btnSecondaryBorder)}" :href="'#' + data.navItems[2]"> Projects </a>
       </div>
     </div>
@@ -65,14 +65,11 @@ const {selectedTheme} = storeToRefs(storeTheme)
     display: flex;
     gap: 20px;
 
-    button, a {
+    a {
       border-radius: 10px;
       padding: 8px 30px;
       font-weight: bold;
       border: none;
-    }
-
-    a {
       text-decoration: none;
     }
   }
