@@ -8,7 +8,7 @@ const { selectedTheme } = storeToRefs(storeTheme);
 </script>
 
 <template>
-  <div class="animate__animated animate__bounceInUp animate__delay-1s">
+  <div class="container-logo animate__animated animate__bounceInUp animate__delay-1s">
     <svg
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
@@ -67,21 +67,23 @@ m1262 1083 l655 -620 -26 -22 c-15 -12 -90 -71 -167 -131 -547 -426 -1043
 </template>
 
 <style scoped>
-div {
-  display: flex;
-  align-items: end;
-  justify-content: flex-end;
+.container-logo {
   position: fixed;
   z-index: 10;
-  height: 80%;
+  width: 500px;
   bottom: -100px;
-  right: -430px;
-  overflow-x: auto;
-
+  right: -250px;
 }
 
 svg {
   height: 100%;
   width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .container-logo {
+    width: 700px;
+    right: -345px;
+  }
 }
 </style>
