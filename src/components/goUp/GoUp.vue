@@ -1,29 +1,27 @@
 <script setup lang="ts">
-import 'animate.css'
+import "animate.css";
 import { storeToRefs } from "pinia";
 import { useTheme } from "../../stores/theme";
 
 const storeTheme = useTheme();
 const { selectedTheme } = storeToRefs(storeTheme);
-
 </script>
 
 <template>
   <div
-    class="arrow-container animate__animated animate__bounceInUp animate__delay-1s "
+    class="arrow-container animate__animated animate__bounceInUp animate__delay-1s"
     :style="{ 'background-color': selectedTheme.fontColor }"
-
   >
     <a href="#Intro">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="128"
         height="128"
-        viewBox="0 0 24 24"
+        viewBox="0 0 1024 1024"
       >
         <path
           :fill="selectedTheme.bgColor"
-          d="m11 8.8l-2.9 2.9q-.275.275-.7.275t-.7-.275q-.275-.275-.275-.7t.275-.7l4.6-4.6q.3-.3.7-.3t.7.3l4.6 4.6q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275L13 8.8V17q0 .425-.288.713T12 18q-.425 0-.712-.288T11 17z"
+          d="M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8l316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496"
         />
       </svg>
     </a>
@@ -42,8 +40,12 @@ const { selectedTheme } = storeToRefs(storeTheme);
   a {
     display: flex;
     align-items: center;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+  }
+
+  svg {
+    height: 25px;
   }
 }
 
