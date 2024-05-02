@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Github from "../icons/Github.vue";
 import Linkedin from "../icons/Linkedin.vue";
+import Email from '../icons/Email.vue';
 
 import { storeToRefs } from "pinia";
 import { useTheme } from "../../stores/theme";
@@ -23,6 +24,10 @@ const {data} = storeToRefs(store)
 
       <a :href="data.social.linkedin" target="_blank">
         <Linkedin :color="selectedTheme.fontColor" />
+      </a>
+
+      <a :href="'mailto:' + data.social.email" target="_blank">
+        <Email :color="selectedTheme.fontColor" />
       </a>
     </div>
 

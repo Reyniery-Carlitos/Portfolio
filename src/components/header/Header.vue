@@ -147,6 +147,7 @@ header {
 }
 
 .languajes-container > span {
+  cursor: pointer;
   padding: 10px;
 }
 
