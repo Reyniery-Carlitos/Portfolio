@@ -6,6 +6,7 @@ import Skills from './components/skills/Skills.vue'
 import ChangeTheme from './components/theme/ChangeTheme.vue'
 import Footer from './components/footer/Footer.vue'
 import GoUp from './components/goUp/GoUp.vue'
+import Logo from './components/icons/Logo.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import GoUp from './components/goUp/GoUp.vue'
 
   <ChangeTheme />
   <GoUp />
+  <Logo />
 </template>
 
 <style scoped>

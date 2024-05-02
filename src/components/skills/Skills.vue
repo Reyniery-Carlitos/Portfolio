@@ -37,6 +37,7 @@ const {data} = storeToRefs(store)
   text-align: center;
   align-self: center;
   width: 80%;
+  z-index: 20;
 
   h2 {
     font-size: 3rem;
@@ -56,6 +57,7 @@ const {data} = storeToRefs(store)
   flex-wrap: wrap;
   gap: 30px;
   width: 80%;
+  z-index: 20;
 }
 
 @media only screen and (min-width: 520px) {

@@ -54,6 +54,7 @@ function filterProjects (tag: string) {
   justify-content: center;
   width: 80%;
   justify-self: center;
+  z-index: 20;
 
   h2 {
     font-size: 3rem;
@@ -81,6 +82,7 @@ function filterProjects (tag: string) {
   width: 80%;
   flex-wrap: wrap;
   gap: 10px;
+  z-index: 20;
 }
 
 .cards-container {
@@ -88,6 +90,7 @@ function filterProjects (tag: string) {
   grid-template-columns: 1fr;
   gap: 20px;
   width: 80%;
+  z-index: 20;
 }
 
 @media only screen and (min-width: 768px) {

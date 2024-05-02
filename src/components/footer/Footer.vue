@@ -62,6 +62,7 @@ const {data} = storeToRefs(store)
   gap: 10px;
   padding: 20px 0px;
   width: 100%;
+  z-index: 20;
 }
 
 .footer .links{

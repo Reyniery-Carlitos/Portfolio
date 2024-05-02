@@ -45,6 +45,7 @@ const {selectedTheme} = storeToRefs(storeTheme)
 .logo {
   border-radius: 50%;
   width: 70%;
+  z-index: 20;
 }
 
 .info-container {
@@ -52,6 +53,7 @@ const {selectedTheme} = storeToRefs(storeTheme)
   display: flex;
   flex-direction: column;
   gap: 20px;
+  z-index: 20;
 
   h1 {
     font-size: 2rem;
