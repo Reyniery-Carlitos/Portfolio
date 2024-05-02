@@ -75,7 +75,7 @@ div {
   z-index: 10;
   height: 80%;
   bottom: -100px;
-  right: -370px;
+  right: -430px;
   overflow-x: auto;
 
 }
