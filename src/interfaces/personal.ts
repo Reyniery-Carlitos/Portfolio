@@ -54,6 +54,7 @@ export interface Social {
   github: string;
   email: string;
   linkedin: string;
+  whatsapp: string;
 }
 
 export interface CounterTag {
