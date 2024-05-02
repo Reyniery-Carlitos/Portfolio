@@ -10,7 +10,8 @@ export interface Theme {
   cardBgColor: string,
   tagBgColor: string,
   tagColor: string,
-  footerBgColor: string
+  footerBgColor: string,
+  logoColor: string
 }
 
 export interface Themes {
