@@ -56,7 +56,7 @@ function openPaletteThemes () {
       </div>
 
       <div class="links-container">
-        <a :href="data.social.github" target="_blank">
+        <a :href="data.social.github" title="Link to Github" target="_blank">
           <Github class="github-icon animate__animated animate__bounceIn animate__delay-1s" :color="selectedTheme.fontColor" />
         </a>
         <a class="cv animate__animated animate__bounceIn animate__delay-1s" :style="{'background-color': selectedTheme.btnPrimary, 'color': selectedTheme.btnPrimaryFontColor}" :href="data.cv" target="_blank"> Curriculum </a>
