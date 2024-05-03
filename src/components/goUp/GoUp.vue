@@ -12,7 +12,7 @@ const { selectedTheme } = storeToRefs(storeTheme);
     class="arrow-container animate__animated animate__bounceInUp animate__delay-1s"
     :style="{ 'background-color': selectedTheme.fontColor }"
   >
-    <a href="#Intro">
+    <a href="#Intro" title="Link to up">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="128"

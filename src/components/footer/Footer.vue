@@ -20,23 +20,23 @@ const {data} = storeToRefs(store)
 <template>
   <footer id="footer" class="footer" :style="{'background-color': selectedTheme.footerBgColor}">
     <div class="links">
-      <a :href="data.social.github" target="_blank">
+      <a :href="data.social.github" title="Link to Github" target="_blank">
         <Github :color="selectedTheme.fontColor" />
       </a>
 
-      <a :href="data.social.linkedin" target="_blank">
+      <a :href="data.social.linkedin" title="Link to LinkedIn" target="_blank">
         <Linkedin :color="selectedTheme.fontColor" />
       </a>
 
-      <a :href="'mailto:' + data.social.email" target="_blank">
+      <a :href="'mailto:' + data.social.email" title="Link to Email" target="_blank">
         <Email :color="selectedTheme.fontColor" />
       </a>
       
-      <a :href="data.social.telegram" target="_blank">
+      <a :href="data.social.telegram" title="Link to Telegram" target="_blank">
         <Telegram :color="selectedTheme.fontColor" />
       </a>
       
-      <a :href="data.social.whatsapp" target="_blank">
+      <a :href="data.social.whatsapp" title="Link to Whatsapp" target="_blank">
         <Whatsapp :color="selectedTheme.fontColor" />
       </a>
     </div>
