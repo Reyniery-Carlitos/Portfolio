@@ -252,6 +252,30 @@
             "url": ""
           }
         ]
+      },
+      {
+        "img": "/assets/imgs/rock-papper-scissor/d1.png",
+        "imgs": [
+          "/assets/imgs/rock-papper-scissor/d1.png",
+          "/assets/imgs/rock-papper-scissor/d2.png",
+          "/assets/imgs/rock-papper-scissor/d3.png",
+          "/assets/imgs/rock-papper-scissor/d4.png",
+          "/assets/imgs/rock-papper-scissor/d5.png",
+          "/assets/imgs/rock-papper-scissor/d6.png"
+        ],
+        "title": "Juego piedra papel o tijera",
+        "description": "Juego piedra, papel, tijera, lagartija",
+        "tags": ["CSS", "HTML", "Vuejs", "Frontend", "Games", "Pinia", "TailwindCSS", "VueRouter"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/rock-papper-scissor"
+          },
+          {
+            "title": "Live",
+            "url": "https://rock-papper-scissor-six.vercel.app/"
+          }
+        ]
       }
     ]
   },
