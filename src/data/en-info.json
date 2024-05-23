@@ -116,25 +116,43 @@
         ]
       },
       {
-        "img": "/assets/imgs/task-management-2.png",
-        "imgs": [
-          "/assets/imgs/rest-countries/1.png",
-          "/assets/imgs/rest-countries/2.png",
-          "/assets/imgs/rest-countries/3.png",
-          "/assets/imgs/rest-countries/4.png",
-          "/assets/imgs/rest-countries/5.png"
-        ],
-        "title": "Task Management",
-        "description": "An application dedicated to task management and assignment.",
-        "tags": ["Web", "Fullstack", "Frontend", "Vuejs", "Laravel", "Tailwind"],
+        "img": "/assets/imgs/pokedex/d1.png",
+        "imgs": [],
+        "title": "Pokedex",
+        "description": "An application that displays information about Pokémon using POKEAPI with a search filter and a Pokémon filter by type.",
+        "tags": ["Web", "Frontend", "Vuejs", "Tailwind", "Pinia"],
         "urls": [
           {
             "title": "Github",
-            "url": "https://github.com/Reyniery-Carlitos/Task-Management-App"
+            "url": "https://github.com/Reyniery-Carlitos/pokedex"
           },
           {
             "title": "Live",
-            "url": ""
+            "url": "https://pokedex-carlos-rubio.vercel.app/"
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/rock-papper-scissor/d1.png",
+        "imgs": [
+          "/assets/imgs/rock-papper-scissor/d1.png",
+          "/assets/imgs/rock-papper-scissor/d2.png",
+          "/assets/imgs/rock-papper-scissor/d3.png",
+          "/assets/imgs/rock-papper-scissor/d4.png",
+          "/assets/imgs/rock-papper-scissor/d5.png",
+          "/assets/imgs/rock-papper-scissor/d6.png"
+        ],
+        "title": "Rock Papper Scissor game",
+        "description": "Rock papper scissor lizard spock game",
+        "tags": ["CSS", "HTML", "Vuejs", "Frontend", "Games", "Pinia", "TailwindCSS", "VueRouter"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/rock-papper-scissor"
+          },
+          {
+            "title": "Live",
+            "url": "https://rock-papper-scissor-six.vercel.app/"
           }
         ]
       },
@@ -162,29 +180,6 @@
         ]
       },
       {
-        "img": "/assets/imgs/currency-converter-1.png",
-        "imgs": [
-          "/assets/imgs/rest-countries/1.png",
-          "/assets/imgs/rest-countries/2.png",
-          "/assets/imgs/rest-countries/3.png",
-          "/assets/imgs/rest-countries/4.png",
-          "/assets/imgs/rest-countries/5.png"
-        ],
-        "title": "Currency converter",
-        "description": "Currency converter using compiler theory.",
-        "tags": ["PyQt5", "Python", "Matplotlib", "Desktop"],
-        "urls": [
-          {
-            "title": "Github",
-            "url": "https://github.com/Reyniery-Carlitos/Conversor-de-divisas"
-          },
-          {
-            "title": "Live",
-            "url": ""
-          }
-        ]
-      },
-      {
         "img": "/assets/imgs/password-generator-1.png",
         "imgs": [
           "/assets/imgs/rest-countries/1.png",
@@ -204,6 +199,52 @@
           {
             "title": "Live",
             "url": "https://reyniery-carlitos.github.io/password-generator-app/"
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/task-management-2.png",
+        "imgs": [
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
+        ],
+        "title": "Task Management",
+        "description": "An application dedicated to task management and assignment.",
+        "tags": ["Web", "Fullstack", "Frontend", "Vuejs", "Laravel", "Tailwind"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/Task-Management-App"
+          },
+          {
+            "title": "Live",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/currency-converter-1.png",
+        "imgs": [
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
+        ],
+        "title": "Currency converter",
+        "description": "Currency converter using compiler theory.",
+        "tags": ["PyQt5", "Python", "Matplotlib", "Desktop"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/Conversor-de-divisas"
+          },
+          {
+            "title": "Live",
+            "url": ""
           }
         ]
       },
@@ -250,30 +291,6 @@
           {
             "title": "Live",
             "url": ""
-          }
-        ]
-      },
-      {
-        "img": "/assets/imgs/rock-papper-scissor/d1.png",
-        "imgs": [
-          "/assets/imgs/rock-papper-scissor/d1.png",
-          "/assets/imgs/rock-papper-scissor/d2.png",
-          "/assets/imgs/rock-papper-scissor/d3.png",
-          "/assets/imgs/rock-papper-scissor/d4.png",
-          "/assets/imgs/rock-papper-scissor/d5.png",
-          "/assets/imgs/rock-papper-scissor/d6.png"
-        ],
-        "title": "Rock Papper Scissor game",
-        "description": "Rock papper scissor lizard spock game",
-        "tags": ["CSS", "HTML", "Vuejs", "Frontend", "Games", "Pinia", "TailwindCSS", "VueRouter"],
-        "urls": [
-          {
-            "title": "Github",
-            "url": "https://github.com/Reyniery-Carlitos/rock-papper-scissor"
-          },
-          {
-            "title": "Live",
-            "url": "https://rock-papper-scissor-six.vercel.app/"
           }
         ]
       }
