@@ -14,7 +14,9 @@ const {selectedTheme} = storeToRefs(storeTheme)
 
 <template>
   <section class="intro-container" :id="data.navItems[0]" :style="{'background-color': selectedTheme.bgColor}" >
+
     <img class="logo animate__animated animate__backInLeft animate__delay-1s" src="/assets/logo.jpg" alt="Logo image" />
+
 
     <div class="info-container">
       <h1 :style="{'color': selectedTheme.fontColor}" class="animate__animated animate__backInDown animate__delay-1s"> {{ data.title  }} </h1>
