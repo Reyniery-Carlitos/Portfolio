@@ -12,6 +12,7 @@ import Git from '../icons/Git.vue'
 import Python from '../icons/Python.vue'
 import Mysql from '../icons/Mysql.vue'
 import Css from '../icons/Css.vue';
+import Mssql from '../icons/Mssql.vue'
 
 import { storeToRefs } from "pinia";
 import { useTheme } from "../../stores/theme";
@@ -34,6 +35,7 @@ const { selectedTheme } = storeToRefs(storeTheme);
   <Python :color="selectedTheme.fontColor" />
   <Git :color="selectedTheme.fontColor" />
   <Mysql :color="selectedTheme.fontColor" />
+  <Mssql :color="selectedTheme.fontColor" />
 </template>
 
 <style>

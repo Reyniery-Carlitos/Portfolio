@@ -56,11 +56,12 @@ const {data} = storeToRefs(store)
 
 <style scoped>
 .footer {
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  padding: 20px 0px;
+  padding: 10px 0px;
   width: 100%;
   z-index: 20;
 }
@@ -72,18 +73,17 @@ const {data} = storeToRefs(store)
   gap: 20px;
 
   svg {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
   }
 }
 
 .footer .created-with {
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.8rem;
 }
 
 .footer .created-by {
-  font-size: 1rem;
+  font-size: 0.8rem;
 
   a {
     font-weight: bold;
